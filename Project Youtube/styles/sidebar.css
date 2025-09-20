@@ -1,0 +1,25 @@
+.sidebar{
+    position: fixed;
+    background-color: #121212;
+    top: 70px;
+    bottom: 370px;
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    z-index: 1;
+    justify-content: space-between;
+}
+
+.home, .shorts{
+    width: 60px;
+    margin-left: 7px;
+}
+
+.you{
+    width: 50px;
+    margin-left: 7px;
+}
+
+.subs{
+    width: 70px;
+}
